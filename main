@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cstdlib>
+#include "función2.h"
+#include "rlutil.h"
+#include "menu.h"
+#include <string.h>
+
+using namespace std;
+
+
+int main(){
+
+    int dado1,Puntos=0,Ganador,PuntosGanador,Caso, PuntosRonda, modojugador, RondaLimite;
+    int dados[6], puntoshis[10];
+    int TablaPuntuacion[2];
+    string jugador1, jugador2, ganadores[10];
+
+    menu(dado1, Puntos, Ganador, PuntosGanador, Caso, PuntosRonda, modojugador, RondaLimite, dados, puntoshis, TablaPuntuacion, jugador1, jugador2, ganadores);
+
+  return 0;
+}
